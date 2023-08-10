@@ -142,6 +142,9 @@ footer h4{
         justify-content: center;
         background-color: #f3bf80;
     }
+    .div1{
+        text-align: center;
+    }
     .imagen{
         height: 250px;
         width: 190px;
