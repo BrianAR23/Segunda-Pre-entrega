@@ -6,11 +6,13 @@
 body{
     font-family: 'Courgette', cursive;
     background-color: #292929;
+    color: antiquewhite;
 }
 .logo{
-    width: 23%;
+    width: 22%;
 }
 h1{
+    font-size: 2rem;
     color: antiquewhite;
     text-align: center;
 }
@@ -86,7 +88,7 @@ p{
     margin: 30px;
 }
 footer{
-    width: 100%;
+    width: 100vw;
     padding: 10px;
     margin: 10px auto;
     display: flex;
@@ -113,9 +115,17 @@ footer h4{
     right: 10px;
     height: 8vh;
 }
+.form{
+    width: 60%;
+    margin: 20px auto;
+    background-color: #faebd771;
+    padding: 1rem;
+    border-radius: 20px;
+}
 
 @media only screen and (max-width: 480px){
     body{
+        color: black;
         background-color: bisque;
     }
     nav{
@@ -135,6 +145,9 @@ footer h4{
             display: flex;
             flex-direction: column;
             margin: 10px;
+    }
+    .contenedorlogo{
+        text-align: center;
     }
     .caja{
         display: flex;
@@ -159,5 +172,8 @@ footer h4{
         height: 250px;
         width: 190px;
         margin: 20px;
+    }
+    .form{
+        background-color: #f3bf80
     }
 }
