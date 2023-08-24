@@ -23,8 +23,7 @@ header nav {
     align-items: center; }
   header nav ul a {
     color: antiquewhite;
-    text-decoration: none;
-    padding: 1rem; }
+    text-decoration: none; }
   header nav a:hover {
     color: black;
     background-color: #faebd79a; }
